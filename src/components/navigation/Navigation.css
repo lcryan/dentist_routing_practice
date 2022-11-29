@@ -30,3 +30,16 @@ ul {
     justify-content: space-between;
     align-items: center;
 }
+
+nav ul a:visited{
+    text-decoration: none;
+}
+
+
+.default-link {
+    border-bottom: 1px solid transparent;
+}
+
+.active-link {
+    border-bottom: 1px solid grey;
+}

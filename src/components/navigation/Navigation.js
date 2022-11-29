@@ -11,16 +11,17 @@ function Navigation() {
 
                 <ul>
                     <li>
-                        <NavLink to="/" className="default-link">Home</NavLink>
+                        <NavLink to="/" className={({isActive})=> isActive === true ? "active-link": "default-link"}>
+                            Home</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/cavities" className="default-link">Gaatjes</NavLink>
+                        <NavLink to="/cavities"  className={({isActive})=> isActive === true ? "active-link": "default-link"}>Gaatjes</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/appointments" className="default-link">Afspraak maken</NavLink>
+                        <NavLink to="/appointments"  className={({isActive})=> isActive === true ? "active-link": "default-link"}>Afspraak maken</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/whitening" className="default-link">Tanden bleken</NavLink>
+                        <NavLink to="/whitening"  className={({isActive})=> isActive === true ? "active-link": "default-link"}>Tanden bleken</NavLink>
                     </li>
                 </ul>
             </div>
