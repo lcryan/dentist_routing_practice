@@ -11,16 +11,16 @@ function Navigation() {
 
                 <ul>
                     <li>
-                        <NavLink to="/">Home</NavLink>
+                        <NavLink to="/" className="default-link">Home</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/cavities">Gaatjes</NavLink>
+                        <NavLink to="/cavities" className="default-link">Gaatjes</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/appointments">Afspraak maken</NavLink>
+                        <NavLink to="/appointments" className="default-link">Afspraak maken</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/whitening">Tanden bleken</NavLink>
+                        <NavLink to="/whitening" className="default-link">Tanden bleken</NavLink>
                     </li>
                 </ul>
             </div>
